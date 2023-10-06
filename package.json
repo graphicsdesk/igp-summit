@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "igp-summit",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,14 +10,14 @@
   "devDependencies": {
     "cssnano": "^4.1.10",
     "eslint": "^7.0.0",
-    "parcel-bundler": "1.12.4",
+    "parcel-bundler": "1.12.3",
     "patch-package": "^6.2.2",
     "posthtml-expressions": "1.4.0",
     "posthtml-include": "^1.4.3",
     "sass": "^1.26.5",
-    "@babel/preset-env": "^7.21.8",
-    "@babel/helper-create-regexp-features-plugin":"^7.21.8",
-    "@babel/core": "7.21.8"
+    "@babel/preset-env": "7.21.8",
+    "@babel/helper-create-regexp-features-plugin": "^7.21.8",
+    "@babel/core": "^7.21.8"
   },
   "dependencies": {
     "intersection-observer": "^0.10.0",
@@ -34,8 +34,8 @@
   "spectate": {
     "USE_NEWS_NAV": true,
     "USE_EYE_NAV": false,
-    "USE_COVER_HED": false,
+    "USE_COVER_HED": true,
     "IS_EMBED": false,
-    "DOC_URL": null
+    "DOC_URL": "https://docs.google.com/document/d/1u15eXUaqupdgjbUPBUIiJQ2V91iqaAcqal0LkWC6Mlc/edit"
   }
 }
